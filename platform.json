@@ -21,8 +21,8 @@
         {
             "framework-wiringpi-odroid": [
                 {
-                    "url": "https://github.com/hardkernel/wiringPi/archive/master.zip",
-                    "sha1": "6b006d78a04eb15848502c0a045cad5dd8f4af68",
+                    "url": "https://github.com/piotrbazan/wiringPi/archive/master.zip",
+                    "sha1": "208f969667708a8f42b894663be9b2d444017cbc",
                     "version": "1.232.0",
                     "system": ["linux_armv6l", "linux_armv7l"]
                 }
