@@ -16,7 +16,7 @@ from platformio import exception, util
 from platformio.managers.platform import PlatformBase
 
 
-class Linux_armPlatform(PlatformBase):
+class Linux_arm_odroidPlatform(PlatformBase):
 
     @property
     def packages(self):
@@ -27,7 +27,7 @@ class Linux_armPlatform(PlatformBase):
         return packages
 
     def configure_default_packages(self, variables, targets):
-        if (variables.get("pioframework") == "wiringpi" and
+        if (variables.get("pioframework") == "wiringpi-odroid" and
                 "linux_arm" not in util.get_systype()):
             raise exception.PlatformioException(
                 "PlatformIO does not support temporary cross-compilation "

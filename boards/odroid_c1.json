@@ -1,0 +1,16 @@
+{
+  "build": {
+    "f_cpu": "1500000000L",
+    "mcu": "amlogics805"
+  },
+  "frameworks": [
+    "wiringpi-odroid"
+  ],
+  "name": "Odroid C1/C1+",
+  "upload": {
+    "maximum_ram_size": 1073741824,
+    "maximum_size": 1073741824
+  },
+  "url": "todo",
+  "vendor": "Odroid C1/C1+"
+}

@@ -26,12 +26,11 @@
                     "version": "1.232.0",
                     "system": ["linux_armv6l", "linux_armv7l"]
                 }
-
             ]
         }
     ],
     "frameworks": {
-        "wiringpi": {
+        "wiringpi-odroid": {
             "package": "framework-wiringpi-odroid",
             "script": "builder/frameworks/wiringpi.py"
         }
