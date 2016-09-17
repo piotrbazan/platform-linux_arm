@@ -48,7 +48,7 @@ env.Append(
 
     CPPPATH=[
         join(env.PioPlatform().get_package_dir(
-             "framework-wiringpi"), "wiringPi")
+             "framework-wiringpi-odroid"), "wiringPi")
     ]
 )
 
